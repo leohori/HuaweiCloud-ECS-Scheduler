@@ -37,10 +37,11 @@ from multiprocessing import Queue as queue
 
 Set the following variables in the huaweicloud_ecs_env.sh
 ```
-export OS_DOMAIN_NAME=
-export OS_USERNAME=
-export OS_PASSWORD=
-export OS_PROJECT_NAME=
+OS_DOMAIN_NAME : Domain Name of your Huawei Cloud account
+OS_USERNAME : Username of your Huawei Cloud account
+OS_PASSWORD : Password of your Huawei Cloud account
+OS_PROJECT_NAME : Project Name of your Huawei Cloud account
+PATH_ECS : Path of the folder scripts
 ```
 
 ## Description
