@@ -35,6 +35,14 @@ with:
 from multiprocessing import Queue as queue
 ```
 
+Set the following variables in the huaweicloud_ecs_env.sh
+```
+export OS_DOMAIN_NAME=
+export OS_USERNAME=
+export OS_PASSWORD=
+export OS_PROJECT_NAME=
+```
+
 ## Description
 
 The Shell Scripts allows to Start, Stop an List all the ECS in a particular Project. Also, you can Schedule the Start and Stop operations to be executed through Crontab.
