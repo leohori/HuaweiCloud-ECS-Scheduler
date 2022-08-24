@@ -15,3 +15,4 @@ export OS_PASSWORD=
 export OS_PROJECT_NAME=
 export OS_INTERFACE=public
 export OS_IDENTITY_API_VERSION=3
+export PATH_ECS=/home/huaweicloud/huaweicloud_ecs_scheduler
