@@ -14,8 +14,6 @@
 
 clear
 
-PATH_ECS=/home/huaweicloud/huaweicloud_ecs_scheduler
-
 . $PATH_ECS/huaweicloud_ecs_env.sh
 
 cNone='\033[00m'
