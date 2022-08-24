@@ -25,8 +25,15 @@ vi /usr/lib/python2.7/site-packages/openstack/cloud/openstackcloud.py
 vi /usr/lib/python2.7/site-packages/openstack/utils.py
 ```
 
-In both files, replace "import queue" with:
+In both files, replace:
+
+```
+"import queue" 
+```
+with:
+```
 from multiprocessing import Queue as queue
+```
 
 ## Description
 
