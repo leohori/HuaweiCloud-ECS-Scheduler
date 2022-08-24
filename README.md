@@ -6,6 +6,7 @@ Linux with OpenStack Client.
 
 UBUNTU client installation:
 
+```
 sudo apt update
 
 sudo apt upgrade
@@ -15,11 +16,14 @@ sudo apt-get install python python-setuptools python-pip python-dev
 sudo pip install python-openstackclient
 
 openstack --help
+```
 
 Note: If you get the error "ImportError: No module named queue" after the execution of openstack command, please execute the following fix:
 
+```
 vi /usr/lib/python2.7/site-packages/openstack/cloud/openstackcloud.py
 vi /usr/lib/python2.7/site-packages/openstack/utils.py
+```
 
 In both files, replace "import queue" with:
 from multiprocessing import Queue as queue
