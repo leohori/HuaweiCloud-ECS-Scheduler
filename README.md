@@ -51,4 +51,8 @@ The Shell Scripts allows to Start, Stop an List all the ECS in a particular Proj
 
 Note: Successfully tested on Ubuntu 18.04 with OpenStack Client 5.2.2
 
+## Execution
+
+sh huaweicloud_ecs_scheduler.sh
+
 Enjoy!
