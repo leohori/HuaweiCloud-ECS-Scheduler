@@ -1,5 +1,13 @@
 # Huawei Cloud - ECS Service - Scheduler
 
+## Description
+
+The Shell Scripts allows to Start, Stop an List all the ECS in a particular Project. Also, you can Schedule the Start and Stop operations to be executed through Crontab.
+
+![image](https://user-images.githubusercontent.com/46529218/186489835-0f960cd8-5a2e-4f3a-94c2-3f9326c4bdef.png)
+
+Note: Successfully tested on Ubuntu 18.04 with OpenStack Client 5.2.2
+
 ## Requirements
 
 Linux with OpenStack Client.
@@ -34,6 +42,7 @@ with:
 ```
 from multiprocessing import Queue as queue
 ```
+## Preparation
 
 Set the following variables in the huaweicloud_ecs_env.sh
 ```
@@ -47,14 +56,6 @@ Set the following variables in the huaweicloud_ecs_scheduler.sh
 ```
 PATH_ECS : Path of the folder scripts
 ```
-
-## Description
-
-The Shell Scripts allows to Start, Stop an List all the ECS in a particular Project. Also, you can Schedule the Start and Stop operations to be executed through Crontab.
-
-![image](https://user-images.githubusercontent.com/46529218/186489835-0f960cd8-5a2e-4f3a-94c2-3f9326c4bdef.png)
-
-Note: Successfully tested on Ubuntu 18.04 with OpenStack Client 5.2.2
 
 ## Execution
 
